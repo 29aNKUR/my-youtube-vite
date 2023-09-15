@@ -84,7 +84,7 @@ const Head = () => {
           <div className="absolute bg-white w-[20rem] p-2 border border-gray-100 rounded-lg shadow-lg">
             <ul>
               {suggestions.map((s) => (
-                <li key={s} className="py-2 px-3 cursor-pointer hover:bg-gray-100" onClick={()=>console.log(s)}>
+                <li key={s} className="py-2 px-3 cursor-pointer hover:bg-gray-100">
                   🔍 {s}
                 </li>
               ))}
